@@ -1,0 +1,19 @@
+.book{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 2rem;
+    margin: 2rem, 0;
+    width: 25rem;
+    padding: 1rem;
+    transition: all 0.3s linear;
+    border-radius: 0.3rem;
+    box-sizing: border-box;
+    
+}
+.book img {
+    border-radius: 2%;
+    border: 0.1rem solid teal;
+  }
+.book:hover {
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+  }
